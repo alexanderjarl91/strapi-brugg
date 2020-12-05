@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/breweries",
+      "handler": "brewery.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/breweries/count",
+      "handler": "brewery.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/breweries/:id",
+      "handler": "brewery.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/breweries",
+      "handler": "brewery.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/breweries/:id",
+      "handler": "brewery.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/breweries/:id",
+      "handler": "brewery.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "breweries",
+  "info": {
+    "name": "brewery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "logoSrc": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "webUrl": {
+      "type": "string"
+    },
+    "facebookUrl": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "type": {
+      "type": "string"
+    },
+    "catalog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "beer.catalog"
+    },
+    "established": {
+      "type": "integer"
+    }
+  }
+}

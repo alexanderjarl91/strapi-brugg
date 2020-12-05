@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_beer_catalogs",
+  "info": {
+    "name": "catalog",
+    "icon": "glass-whiskey",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "beerName": {
+      "type": "string"
+    },
+    "beerType": {
+      "type": "string"
+    },
+    "beerImg": {
+      "type": "string"
+    },
+    "beerABV": {
+      "type": "string"
+    },
+    "beerVol": {
+      "type": "string"
+    },
+    "beerDescription": {
+      "type": "string"
+    }
+  }
+}
