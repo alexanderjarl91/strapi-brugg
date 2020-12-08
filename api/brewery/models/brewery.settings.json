@@ -17,6 +17,9 @@
     "about": {
       "type": "string"
     },
+    "address": {
+      "type": "string"
+    },
     "logoSrc": {
       "type": "string"
     },
