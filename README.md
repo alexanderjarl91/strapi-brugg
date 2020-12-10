@@ -1,3 +1,10 @@
-# Strapi application
+# Brugg API remix using Strapi & MongoDB
 
-A quick description of your strapi application
+
+### The second version of Brugg API using the Strapi headless CMS to manage MongoDB data hosted on Atlas.
+
+
+
+
+https://dry-stream-05871.herokuapp.com/
+
